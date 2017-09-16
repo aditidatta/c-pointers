@@ -1,3 +1,0 @@
-This a line.
-This is Another lINE.
-LiNe 3 with Punctuations, and numbers.
