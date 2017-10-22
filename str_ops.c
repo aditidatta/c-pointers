@@ -123,6 +123,7 @@ void processInput(FILE *fp, int r, int e, int s, int t){
   char** lines = read(fp, &line_count);
   ops(lines, line_count, r, e, s, t);
   freeMem(lines, line_count);
+  lines = NULL;
 }
 
 int main(int argc, char **argv) {
